@@ -1,3 +1,29 @@
 body{
-    background-color: bisque;
+    background-color: rgb(226, 236, 245);
+    font-family: 'Hind Siliguri', sans-serif;
+}
+span{
+    color: rgb(165, 42, 42);
+}
+h1{
+    font-size: 40px;
+}
+section{
+    display: flex;
+}
+.half{
+    width: 50%;
+}
+.imghalf img{
+    width: 60%;
+    justify-content: center;
+}
+.hire{
+    text-decoration: none;
+    /* background-color: cadetblue; */
+    background-image: linear-gradient(green, red);
+    font-weight: bolder;
+    color: wheat;
+    padding: 5px;
+    border-radius: 3px;
 }
