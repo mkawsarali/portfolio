@@ -1,7 +1,12 @@
+
 body{
-    background-color: rgb(226, 236, 245);
     font-family: 'Hind Siliguri', sans-serif;
 }
+.top-banner{
+    background-image: url("/images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
 span{
     color: rgb(165, 42, 42);
 }
@@ -27,3 +32,10 @@ section{
     padding: 5px;
     border-radius: 3px;
 }
+
+.dreambg{
+    background-image: url("/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
