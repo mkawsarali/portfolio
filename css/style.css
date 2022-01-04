@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Hind Siliguri', sans-serif;
+    margin: 0;
 }
 .top-banner{
     background-image: url("/images/top-banner.png");
@@ -13,7 +14,7 @@ span{
 h1{
     font-size: 40px;
 }
-section{
+.flexcontainer{
     display: flex;
 }
 .half{
@@ -39,3 +40,21 @@ section{
     background-position: right;
 }
 
+.expshadow{
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px green;
+    padding: 40px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+#fs{
+    border-left: 10px solid rgba(138, 5, 5, 0.233);
+}
+
+#ms{
+    border-left: 10px solid rgba(45, 5, 138, 0.233);
+}
+
+footer p{
+    text-align: center;
+}
